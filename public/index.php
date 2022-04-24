@@ -61,5 +61,8 @@ $router->get('/mensaje', [LoginController::class, 'mensaje']); // me lleva a la 
 $router->get('/mensaje-restablecer', [LoginController::class, 'mensajerestablecer']);
 $router->get('/mensaje-recuperar', [LoginController::class, 'mensajererecuperar']);
 
+
+
+
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
 $router->comprobarRutas();
