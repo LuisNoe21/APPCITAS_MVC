@@ -113,7 +113,7 @@ class Email {
         $contenido .= "<p style='text-align:center;font-weight: 500;font-size:17px'>¡Ya Casi!</p>";
         $contenido .= "<p style='text-align:center'>¡Gracias por registrarte en Banco Atlántida! Haz clic en el botón que se encuentra abajo para confirmar tu cuenta.</p>";
         $contenido .= "<div style='display:flex; justify-content:center'>";
-        $contenido .= " <a  style='color: #267A91;  margin-left:auto; margin-right:auto;' href='http://nameless-river-77518.herokuapp.com/confirmar-cuenta?token= ".$this->token. "'><button
+        $contenido .= " <a  style='color: #267A91;  margin-left:auto; margin-right:auto;' href='https://nameless-river-77518.herokuapp.com/confirmar-cuenta?token= ".$this->token. "'><button
         style=' background-color: #00a3ff;
         padding: 15px 15px;
         color: white;
@@ -227,7 +227,7 @@ class Email {
         $contenido .= "<p style='text-align:center'>Has solicitado restablecer tu contraseña.</p>";
         $contenido .= "<p style='text-align:center'>Haz clic en el botón que se encuentra abajo para restablecer tu contraseña:</p>";
         $contenido .= "<div style='display:flex; justify-content:center'>";
-        $contenido .= " <a  style='color: #267A91;  margin-left:auto; margin-right:auto;' href='http://nameless-river-77518.herokuapp.com/recuperar?token= ".$this->token. "'><button 
+        $contenido .= " <a  style='color: #267A91;  margin-left:auto; margin-right:auto;' href='https://nameless-river-77518.herokuapp.com/recuperar?token= ".$this->token. "'><button 
         style=' background-color: #00a3ff;
         padding: 15px 15px;
         color: white;
