@@ -1,4 +1,4 @@
-<h1 class="nombre-pagina">Confirmar Cuenta</h1>
+<h1 class="nombre-pagina-confirmar-cuenta">Confirmar Cuenta</h1>
 
 <?php include_once __DIR__ . '/../templates/alertas.php'; ?> <!--  agrego los templates de alertas -->
 

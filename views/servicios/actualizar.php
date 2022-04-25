@@ -1,5 +1,5 @@
-<h1 class="nombre-pagina">Actualizar Servicio</h1>
-<p class="descripcion-pagina">Modifica los valores del formulario</p>
+<h1 class="nombre-pagina-actualizar-servicios">Actualizar Servicio</h1>
+<p class="descripcion-pagina-actualizar-servicios">Modifica los valores del formulario</p>
 
 <?php
     include_once __DIR__ . '/../templates/barra.php';
