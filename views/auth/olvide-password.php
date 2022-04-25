@@ -1,5 +1,5 @@
-<h1 class="nombre-pagina">Olvide Contraseña</h1>
-<p class="descripcion-pagina">Restablece tu contraseña escribiendo tu email a continuación</p>
+<h1 class="nombre-pagina-olvide">Olvide Contraseña</h1>
+<p class="descripcion-pagina-olvide">Restablece tu contraseña escribiendo tu email a continuación</p>
 
 <?php 
 include_once  __DIR__ . "/../templates/alertas.php" //importo las alertas los templates dentro de views

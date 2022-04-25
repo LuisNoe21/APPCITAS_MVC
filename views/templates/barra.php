@@ -1,5 +1,5 @@
 <div class="barra">
-    <p>Hola: <?php echo $nombre ?? ''; ?></p>   <!-- muestra el nombre de usuario-->
+    <p class="welcome">Hola: <?php echo $nombre ?? ''; ?></p>   <!-- muestra el nombre de usuario-->
     <div class="div-boton">
   <a class="boton-cerrar" href="/logout">Cerrar Sesión</a> 
   </div>  <!-- cierra la sesion del sistema -->

@@ -1,5 +1,5 @@
-<h1 class="nombre-pagina">Login</h1>
-<p class="descripcion-pagina">Inicia sesión con tus datos</p>
+<h1 class="nombre-pagina-login">Login</h1>
+<p class="descripcion-pagina-login">Inicia sesión con tus datos</p>
 
 <?php 
 include_once  __DIR__ . "/../templates/alertas.php" //importo las alertas los templates dentro de views

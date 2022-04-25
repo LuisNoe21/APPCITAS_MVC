@@ -1,6 +1,6 @@
 
 
-        <h1 class="nombre-pagina">Contacto</h1>
+        <h1 class="nombre-pagina-contactanos">Contacto</h1>
 
         <?php if($mensaje) { ?>
         <p class="alerta exito"><?php echo $mensaje; ?></p>

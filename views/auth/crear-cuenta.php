@@ -1,5 +1,5 @@
-<h1 class="nombre-pagina">Crear Cuenta</h1>
-<p class="descripcion-pagina">Llena el siguiente formulario</p>
+<h1 class="nombre-pagina-crear-cuenta">Crear Cuenta</h1>
+<p class="descripcion-pagina-crear-cuenta">Llena el siguiente formulario</p>
 
 <?php 
 include_once  __DIR__ . "/../templates/alertas.php" //importo las alertas los templates dentro de views
