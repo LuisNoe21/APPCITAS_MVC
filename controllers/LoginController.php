@@ -110,7 +110,7 @@ class LoginController
         $usuario = Usuario::where('token', $token); //busca el token
 
         if (empty($usuario)) { //revisamos si el usuario esta vacio o no
-            Usuario::setAlerta('error', 'Token no valido'); // mensaje de alerta en caso de no encontrar nada
+            Usuario::setAlerta('error-token', 'Token no valido'); // mensaje de alerta en caso de no encontrar nada
 
             $error = true; // error cambia true en caso de no hallar nada
         }
@@ -253,7 +253,7 @@ class LoginController
 
         if (empty($usuario)) {
             // Mostrar mensaje de error
-            Usuario::setAlerta('error', 'Token No Válido');
+            Usuario::setAlerta('error-token', 'Token No Válido');
         } else {
             // Modificar a usuario confirmado
             $usuario->confirmado = "1";
