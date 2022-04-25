@@ -1,5 +1,5 @@
-<h1 class="nombre-pagina">Recuperar Contraseña</h1>
-<p class="descripcion-pagina">Coloca tu nueva contraseña</p>
+<h1 class="nombre-pagina-recuperar-password">Recuperar Contraseña</h1>
+<p class="descripcion-pagina-recuperar-password">Coloca tu nueva contraseña</p>
 
 <?php 
 include_once  __DIR__ . "/../templates/alertas.php" //importo las alertas los templates dentro de views
