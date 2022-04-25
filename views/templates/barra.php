@@ -7,6 +7,7 @@
 
 
 <?php if(isset($_SESSION['admin'])) { ?>  <!-- if para verificar si es admin o no-->
+    <h1 class="nombre-pagina-admin">Panel de Administración</h1>
     <div class="barra-servicios">
         <a class="boton" href="/admin">Ver Citas</a>
         <a class="boton" href="/servicios">Ver Servicios</a>
